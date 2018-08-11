@@ -1,0 +1,41 @@
+
+.wrapper {
+    background-color: #dbdbdb;
+    padding: 6rem 2rem;
+}
+
+.subtitle {
+    font-family: 'Kanit', sans-serif;
+    color: #000;
+}
+
+.subline {
+    font-family: 'Raleway', sans-serif;
+}
+
+.line {
+    border-top-color: #c67c00 !important;
+}
+
+.image, .contents {
+    height: 10rem;
+}
+
+.contents p:first-of-type {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+}
+
+.contents p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+.link {
+    color: #000;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #c67c00;
+}

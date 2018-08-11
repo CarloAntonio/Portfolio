@@ -1,3 +1,7 @@
+import magnolia from '../../assets/latest/magnolia.jpg';
+import bobashopgames from '../../assets/latest/bobashopgames.jpg'
+import darryljonvisuals from '../../assets/latest/darryljonvisuals.jpg'
+
 export const progressData = {
     technologies: [
         {
@@ -121,24 +125,24 @@ export const progressData = {
     ]
 }
 
-// export const portfolioData = [
+export const portfolioData = [
 
-//     {
-//         image: bobashopgames,
-//         link: "https://www.bobashopgames.fun",
-//         title: "Boba Shop Games",
-//         service: "Web Application | Design | Conception"
-//     },
-//     {
-//         image: darryljonvisuals,
-//         link: "https://www.darryljonvisuals.com",
-//         title: "Darryl Jon Visuals",
-//         service: "Website | Design"
-//     },
-//     {
-//         image: magnolia,
-//         link: "https://www.magnoliaghllc.com",
-//         title: "Magnolia Guest Home LLC",
-//         service: "Website | Photography"
-//     },
-// ];
+    {
+        image: bobashopgames,
+        link: "https://www.bobashopgames.fun",
+        title: "Boba Shop Games",
+        service: "Web Application | Design | Conception"
+    },
+    {
+        image: darryljonvisuals,
+        link: "https://www.darryljonvisuals.com",
+        title: "Darryl Jon Visuals",
+        service: "Website | Design"
+    },
+    {
+        image: magnolia,
+        link: "https://www.magnoliaghllc.com",
+        title: "Magnolia Guest Home LLC",
+        service: "Website | Photography"
+    },
+];

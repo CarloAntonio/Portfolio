@@ -21,6 +21,7 @@ const skills = () => {
                 <div className="row">
                     <div className="col-12 pb-4 py-md-4">
                        <p className={classes.subtitle + " text-center font-weight-bold h4"}>Skill Set</p>
+                        <hr className={classes.line}/>
                     </div>
                     <div className="col-12 col-lg-6">
                         <p className={classes.subline + " text-center"}>Technologies</p>

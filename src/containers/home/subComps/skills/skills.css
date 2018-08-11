@@ -6,9 +6,13 @@
 
 .subtitle {
     font-family: 'Kanit', sans-serif;
-    color: #c67c00;
+    color: #000;
 }
 
 .subline {
     font-family: 'Raleway', sans-serif;
+}
+
+.line {
+    border-top-color: #c67c00 !important;
 }
