@@ -3,8 +3,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faStackOverflow, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
 
-import carloHero from '../../assets/home-hero.jpg';
-
 import classes from './home.css';
 
 const home = () => {
