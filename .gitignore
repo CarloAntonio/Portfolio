@@ -9,6 +9,9 @@
 # production
 /build
 
+# not for github
+/src/assets
+
 # misc
 .DS_Store
 .env.local
