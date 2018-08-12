@@ -3,6 +3,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 
 import Nav from './containers/nav/nav';
 import Home from './containers/home/home';
+import Footer from './containers/footer/footer';
 
 import './App.css';
 
@@ -15,6 +16,7 @@ class App extends Component {
 
         <Home/>
 
+        <Footer/>
       </div>
     );
   }

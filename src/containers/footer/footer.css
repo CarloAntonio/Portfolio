@@ -1,0 +1,38 @@
+
+.wrapper {
+    background-color: #000;
+    padding: 2rem 2rem;
+}
+
+a {
+    color: white;
+    padding: 0.5rem;
+}
+
+a:hover {
+    color: #c67c00;
+}
+
+a:first-of-type {
+    padding-left: 1rem;
+}
+
+.subline, .follow {
+    font-size: 0.8rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.copy {
+    font-size: 0.6rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (min-width: 540px) {
+    .subline, .follow {
+        font-size: 1rem;
+    }
+    
+    .copy {
+        font-size: 0.8rem;
+    }
+}

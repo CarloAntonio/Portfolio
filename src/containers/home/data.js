@@ -1,6 +1,8 @@
 import magnolia from '../../assets/latest/magnolia.jpg';
-import bobashopgames from '../../assets/latest/bobashopgames.jpg'
-import darryljonvisuals from '../../assets/latest/darryljonvisuals.jpg'
+import darryljonvisuals from '../../assets/latest/darryljonvisuals.jpg';
+import ortabrothers from '../../assets/latest/ortabrothers.jpg';
+import bobashopgames from '../../assets/latest/bobashopgames.jpg';
+import roogle from '../../assets/latest/roogle.png';
 
 export const progressData = {
     technologies: [
@@ -128,10 +130,22 @@ export const progressData = {
 export const portfolioData = [
 
     {
+        image: roogle,
+        link: "https://www.roogle.site",
+        title: "Roogle",
+        service: "Web Application | Design | Conception"
+    },
+    {
         image: bobashopgames,
         link: "https://www.bobashopgames.fun",
         title: "Boba Shop Games",
         service: "Web Application | Design | Conception"
+    },
+    {
+        image: ortabrothers,
+        link: "https://www.ortabrothers.com/software-engineers",
+        title: "OrtaBrothers",
+        service: "Website | Component Build"
     },
     {
         image: darryljonvisuals,
@@ -146,3 +160,4 @@ export const portfolioData = [
         service: "Website | Photography"
     },
 ];
+
