@@ -1,8 +1,12 @@
 import React from 'react';
 
+import Hero from './subComps/hero/hero';
+
 const about = () => {
     return (
-        <div/>
+        <div>
+            <Hero/>
+        </div>
     )
 }
 
