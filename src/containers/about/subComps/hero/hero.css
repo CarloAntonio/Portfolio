@@ -1,4 +1,8 @@
 
+.wrapper {
+    background-color: #fff;
+}
+
 .jumbo {
     height: 100%;
     min-height: 400px;
@@ -32,6 +36,11 @@
 }
 
 @media (min-width: 540px) {
+    .wrapper {
+        padding-top: 2rem;
+        padding-bottom: 6rem;
+    }
+
     .jumbo, .carousel {
         min-height: 500px;
     }
@@ -40,5 +49,11 @@
 @media (min-width: 720px) {
     .jumbo, .carousel {
         min-height: 600px;
+    }
+}
+
+@media (min-width: 960px) {
+    .wrapper {
+        padding-top: 6rem;
     }
 }
