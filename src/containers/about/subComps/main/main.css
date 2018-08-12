@@ -1,7 +1,7 @@
 
 .wrapper {
     padding: 6rem 2rem;
-    background-color: #dbdbdb;
+    background-color: #f7f7f7;
 }
 
 .highlight {
@@ -15,7 +15,7 @@
 .figure {
     margin: 0;
     padding: 1rem;
-    background-color: #f7f7f7;
+    background-color: #dbdbdb;
 }
 
 .figure img {
