@@ -14,10 +14,10 @@ const nav = () => {
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div className={classes.navItems + " navbar-nav"}>
-                        <a className="nav-item nav-link active" href="#">Home<span className="sr-only">(current)</span></a>
-                        <a className="nav-item nav-link" href="#">Work</a>
-                        <a className="nav-item nav-link" href="#">About</a>
-                        <a className="nav-item nav-link" href="#">Contact</a>
+                        <a className="nav-item nav-link" href="/">Home<span className="sr-only">(current)</span></a>
+                        <a className="nav-item nav-link" href="/work">Work</a>
+                        <a className="nav-item nav-link" href="/about">About</a>
+                        <a className="nav-item nav-link" href="/contact">Contact</a>
                     </div>
                 </div>
             </div>

@@ -17,8 +17,12 @@
     border-top-color: #c67c00 !important;
 }
 
-.image, .contents {
+.image {
     height: 10rem;
+}
+
+.contents {
+    height: 8rem;
 }
 
 .contents p:first-of-type {

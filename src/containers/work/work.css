@@ -1,0 +1,48 @@
+
+.jumbo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/work/work-filler.jpeg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0px;
+}
+
+.content {
+    padding: 8rem 2rem;
+}
+
+.content h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+.content p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.image {
+    height: 10rem;
+}
+
+.contents {
+    height: 8rem;
+}
+
+.contents p:first-of-type {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+}
+
+.contents p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+.link {
+    color: #000;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #c67c00;
+}

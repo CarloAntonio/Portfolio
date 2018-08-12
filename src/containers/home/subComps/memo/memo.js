@@ -10,7 +10,7 @@ const memo = () => {
                 <h1 className={classes.headline + " col-12 display-4 text-white text-center"}>
                     Hi, I'm Carlo, a front-end developer based in SF. I'm passionate about designing intuative and aesthetic interfaces and applying new technologies to solve old problems.
                 </h1>
-                <p className={classes.learn + " col-12 text-uppercase text-right"}><a href="#">Learn More</a></p>
+                <p className={classes.learn + " col-12 text-uppercase text-right"}><a href="/about">Learn More</a></p>
             </div>
         </section>
     )
