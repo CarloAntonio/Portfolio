@@ -1,0 +1,16 @@
+
+.wrapper {
+    padding: 8rem 2rem;
+    background-color: #f7f7f7;
+}
+
+.icon {
+    color: #c67c00;
+    margin: 0 1rem;
+}
+
+@media (min-width: 760px) {
+    .wrapper {
+        padding: 12rem 2rem;
+    }
+}
