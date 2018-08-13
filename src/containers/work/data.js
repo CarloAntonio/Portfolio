@@ -64,7 +64,7 @@ export const we1Data = {
         },
         {
             level: 97,
-            type: "Javascript",
+            type: "JavaScript",
             
         },
         {
@@ -80,7 +80,7 @@ export const we1Data = {
     ],
     goals: [
         {
-            question: "What was the project goal?",
+            question: "What was the project goals?",
             answer: "The goal of this project was to upgrade and update the client's very outdated website. The website had not been updated in years and much of the information on the website was incorrect. Furthermore, the website was not responsive and caused users to side scroll on smaller devices leading to a less than ideal user experience.",
         },
         {
@@ -118,29 +118,28 @@ export const we2Data = {
     },
     skills: [
         {
-            level: "92%",
-            type: "HTML & CSS",
-            experience: "1"
+            level: 92,
+            type: "HTML/CSS",
         },
         {
-            level: "97%",
-            type: "Javascript",
-            experience: "1",
+            level: 97,
+            type: "JavaScript",
+
         },
         {
-            level: "75%",
+            level: 75,
             type: "Bootstrap",
-            experience: "1",
+
         },
         {
-            level: "70%",
+            level: 70,
             type: "React",
-            experience: "1",
+
         },
     ],
     goals: [
         {
-            question: "What was the goal of this project?",
+            question: "What were the project goals?",
             answer: "The goal of this project was to upgrade the client's online presence from a limited, self-made WordPress website to a rich and interactive React website. I also wanted to present the client in the same light he carried himself in the real world: a professional, collected, and experienced photographer and videographer. ",
         },
         {
@@ -152,7 +151,7 @@ export const we2Data = {
             answer: "The client and I set goals over drinks at a local coffee shop. I asked what he wanted to get out of updating his website and if it was worth upgrading his then-smaller WordPress website. We highlighted three main goals: cleaner design, highlight of previous projects, and presenting a professional look.",
         },
         {
-            question: "What are some technologies used on this project?",
+            question: "What technologies were used?",
             answer: `The client's website uses the usual technologies for website creation, namely HTML, CSS, and Javascript. The website also uses the React Library + Associated React Libraries that bring it to Framework status, to provide a performance boost and "lazy-loads" seldom used links for a slight performance boost.`,
         },
     ],
@@ -162,7 +161,7 @@ export const we2Data = {
     }
 }
 
-export const we3Data = {
+export const we4Data = {
     hero: {
         image: bobashopgames,
         title: "Boba Shop Games: Quick Think",
@@ -178,29 +177,28 @@ export const we3Data = {
     },
     skills: [
         {
-            level: "95%",
-            type: "HTML & CSS",
-            experience: "1"
+            level: 95,
+            type: "HTML/CSS",
         },
         {
-            level: "97%",
-            type: "Javascript",
-            experience: "1",
+            level: 97,
+            type: "JavaScript",
+            
         },
         {
-            level: "80%",
-            type: "Redux",
-            experience: "1",
-        },
-        {
-            level: "90%",
+            level: 90,
             type: "React",
-            experience: "1",
+            
+        },
+        {
+            level: 80,
+            type: "Redux",
+            
         },
     ],
     goals: [
         {
-            question: "What was the goal of this project?",
+            question: "What were the project goals?",
             answer: "The goal of this project was to upgrade my skills in using the React library as well as it's associated libraries that make it Framework-like. Additionally, it helped me practice layout design using both bootstrap and Material-UI. Also, a deeper understanding of JS, namely, JS array methods.",
         },
         {
@@ -212,7 +210,7 @@ export const we3Data = {
             answer: "Goals were set to reflect a similar project that was an accompaniment to an online class I took to learn react. The online class accompaniment project is also available on my github, named: burger builder.",
         },
         {
-            question: "What are some technologies used on this project?",
+            question: "What technologies were used?",
             answer: `The website uses the usual technologies for website creation, namely HTML, CSS, and Javascript. The website also uses the React Library + Associated React Libraries that bring it to Framework status, to provide a performance boost and "lazy-loads" seldom used links for a slight performance boost.`,
         },
     ],

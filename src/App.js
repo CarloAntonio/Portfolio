@@ -9,6 +9,9 @@ import Contact from './containers/contact/contact';
 import Footer from './containers/footer/footer';
 
 import We1 from './containers/work/workItems/we1';
+import We2 from './containers/work/workItems/we2';
+// import We3 from './containers/work/workItems/we3';
+import We4 from './containers/work/workItems/we4';
 
 import './App.css';
 
@@ -23,6 +26,9 @@ class App extends Component {
             <Route path='/' exact component={ Home }/>
             <Route path='/work' exact component={ Work }/>
               <Route path='/work/we1' exact component={ We1 }/>
+              <Route path='/work/we2' exact component={ We2 }/>
+              {/* <Route path='/work/we3' exact component={ We3 }/> */}
+              <Route path='/work/we4' exact component={ We4 }/>
             <Route path='/about' exact component={ About }/>
             <Route path='/contact' exact component={ Contact }/>
             <Redirect to="/"/>
