@@ -20,7 +20,7 @@ const work = () => {
                     <div className={classes.content + " row"}>
                         {workData.map((item, index) => {
                                 return <div className="col-12 col-sm-6 col-md-4 col-lg-3 p-2" key={index}>
-                                            <a className={classes.link} href={item.link} target="_blank">
+                                            <a className={classes.link} href={item.link}>
                                                 <div className="card">
                                                     <img className={classes.image + " card-img-top"} src={item.image} alt={item.title}/>
                                                     <div className={classes.contents + " card-body"}>

@@ -1,0 +1,51 @@
+
+.jumbo {
+    height: 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0px;
+}
+
+.content {
+    padding: 8rem 2rem;
+}
+
+.content p {
+    font-size: 0.8rem;
+}
+
+.content h1 {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+@media (min-width: 360px) {
+    .content h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .jumbo {
+        height: 80vh;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .content h1 {
+        font-size: 2.4rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .content h1 {
+        font-size: 2.8rem;
+    }
+}
