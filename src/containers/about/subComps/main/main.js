@@ -9,7 +9,7 @@ const main = () => {
         <div className={classes.wrapper}>
             <div className="container">
                 <div className="row">
-                    <div className="col-12 col-lg-6">
+                    <div className="col-12 col-lg-6 wow fadeInLeft">
                         <p className={classes.highlight}>"When figuring what type of work you should do, treat it much like the rest of life, find things that make you lose track of time."</p>
                         <p>
                             I am both a software developer and biotech professional based in the San Francisco Bay Area. 
@@ -31,7 +31,7 @@ const main = () => {
                         </p>
                     </div>
 
-                    <div className={classes.figContainer + " d-md-none d-lg-block col-12 col-lg-6"}>
+                    <div className={classes.figContainer + " d-md-none d-lg-block col-12 col-lg-6 wow fadeInRight"}>
                         <figure className={classes.figure}>
                             <img alt="profile" src={ profile }/>
                             <figcaption>You&#39;re looking at my portfolio page, that&#39;s awesome :)</figcaption>

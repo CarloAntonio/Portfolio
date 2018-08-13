@@ -133,31 +133,37 @@ export const portfolioData = [
         image: roogle,
         link: "https://www.roogle.site",
         title: "Roogle",
-        service: "Web Application | Design | Conception"
+        service: "Web Application | Design | Conception",
+        delay: "0.2s"
     },
     {
         image: bobashopgames,
         link: "https://www.bobashopgames.fun",
         title: "Boba Shop Games",
-        service: "Web Application | Design | Conception"
+        service: "Web Application | Design | Conception",
+        delay: "0.4s"
+        
     },
     {
         image: ortabrothers,
         link: "https://www.ortabrothers.com/software-engineers",
         title: "OrtaBrothers",
-        service: "Website | Component Build"
+        service: "Website | Component Build",
+        delay: "0.6s"
     },
     {
         image: darryljonvisuals,
         link: "https://www.darryljonvisuals.com",
         title: "Darryl Jon Visuals",
-        service: "Website | Design"
+        service: "Website | Design",
+        delay: "0.8s"
     },
     {
         image: magnolia,
         link: "https://www.magnoliaghllc.com",
         title: "Magnolia Guest Home LLC",
-        service: "Website | Photography"
+        service: "Website | Photography",
+        delay: "1s"
     },
 ];
 

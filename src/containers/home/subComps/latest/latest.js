@@ -16,7 +16,7 @@ const latest = () => {
                     </div>
                     
                     {portfolioData.map((item, index) => {
-                        return <div className="col-12 col-sm-6 col-md-4 col-lg-3 p-2" key={index}>
+                        return <div className="col-12 col-sm-6 col-md-4 col-lg-3 p-2 wow fadeInUp" data-wow-delay={item.delay} key={index}>
                                     <a className={classes.link} href={item.link} target="_blank">
                                         <div className="card">
                                             <img className={classes.image + " card-img-top"} src={item.image} alt={item.title}/>

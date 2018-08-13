@@ -19,7 +19,7 @@ const interest = () => {
                 <div className="row">
 
                     {interestData.map((interest, index) => {
-                        return <div className="col-12 col-md-6 col-lg-4" key={index}>
+                        return <div className="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay={interest.delay} key={index}>
                                     <div>
                                         <div className="d-flex justify-content-center">
                                             <FontAwesomeIcon icon={interest.icon} size={"3x"} className={classes.icon}/>
