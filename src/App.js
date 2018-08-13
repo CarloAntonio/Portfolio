@@ -21,17 +21,17 @@ const asyncWe2 = async(() => {
   return import('./containers/work/workItems/we2');
 });
 
-// const asyncWe3 = async(() => {
-//   return import('./containers/work/workItems/we3');
-// });
+const asyncWe3 = async(() => {
+  return import('./containers/work/workItems/we3');
+});
 
 const asyncWe4 = async(() => {
   return import('./containers/work/workItems/we4');
 });
 
-// const asyncWe5 = async(() => {
-//   return import('./containers/work/workItems/we5');
-// });
+const asyncWe5 = async(() => {
+  return import('./containers/work/workItems/we5');
+});
 
 class App extends Component {
   render() {
@@ -45,9 +45,9 @@ class App extends Component {
             <Route path='/work' exact component={ Work }/>
               <Route path='/work/we1' exact component={ asyncWe1 }/>
               <Route path='/work/we2' exact component={ asyncWe2 }/>
-              {/* <Route path='/work/we3' exact component={ asyncWe3 }/> */}
+              <Route path='/work/we3' exact component={ asyncWe3 }/>
               <Route path='/work/we4' exact component={ asyncWe4 }/>
-              {/* <Route path='/work/we4' exact component={ asyncWe5 }/> */}
+              <Route path='/work/we5' exact component={ asyncWe5 }/>
             <Route path='/about' exact component={ About }/>
             <Route path='/contact' exact component={ Contact }/>
             <Redirect to="/"/>

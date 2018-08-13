@@ -16,8 +16,17 @@
     font-family: 'Kanit', sans-serif;
 }
 
+.container {
+    overflow: hidden;
+}
+
 .image {
     height: 10rem;
+    transition: all 0.3s;
+}
+
+.image:hover {
+    transform: scale(1.1);
 }
 
 .contents {

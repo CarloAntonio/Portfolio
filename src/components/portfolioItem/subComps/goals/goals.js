@@ -10,7 +10,7 @@ const goals = (props) => {
                 <div className="accordion" id="accordionExample">
 
                     {props.goals.map((goal, index) => {
-                        return <div className="card">
+                        return <div className="card" key={index}>
                                     <div className={classes.cardHead + " card-header"} id={"heading" + index}>
                                         <h5 className="mb-0 mx-auto">
                                             <button className={classes.button + " btn btn-link"} type="button" data-toggle="collapse" data-target={"#collapse" + index} aria-expanded="true" aria-controls={"collapse" + index}>

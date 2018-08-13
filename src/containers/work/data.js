@@ -1,5 +1,5 @@
 
-import roogle from '../../assets/latest/roogle.png';
+import roogle from '../../assets/latest/roogle.jpeg';
 import bobashopgames from '../../assets/latest/bobashopgames.jpg';
 import ortabrothers from '../../assets/latest/ortabrothers.jpg';
 import darryljonvisuals from '../../assets/latest/darryljonvisuals.jpg';
@@ -38,7 +38,7 @@ export const workData = [
         image: magnolia,
         date: "May 24, 2018",
         title: "Magnolia Guest Home LLC",
-        delay: "1s",
+        delay: "0.3s",
         link: "/work/we1"
     },
 ];
@@ -161,6 +161,65 @@ export const we2Data = {
     }
 }
 
+export const we3Data = {
+    hero: {
+        image: ortabrothers,
+        title: "OrtaBrothers",
+        subTitle: "Orta Brothers is a family owned business, serving residents and commercial clients alike since 2002."
+    },
+    overview: {
+        summary: "A website for Orta Brothers, for reaching out to potential clients, presenting services, company history and track record, and contact information.",
+        clientName: "Isaiah Orta via LeemTek Dev Group",
+        clientIndustry: "Residental Cleaning",
+        services: "Page Build",
+        date: "June 28, 2018",
+        link: "https://www.ortabrothers.com/",
+    },
+    skills: [
+        {
+            level: 92,
+            type: "HTML/CSS",
+        },
+        {
+            level: 97,
+            type: "JavaScript",
+
+        },
+        {
+            level: 75,
+            type: "Bootstrap",
+
+        },
+        {
+            level: 70,
+            type: "React",
+
+        },
+    ],
+    goals: [
+        {
+            question: "What were the project goals?",
+            answer: "The goal of this project was to upgrade the client's online presence from a bland landing page to a rich and interactive React website. My part in the team project was to work on the about and FAQ section of the page. ",
+        },
+        {
+            question: "How were the goals reached?",
+            answer: "The goal of this project was reached by first creating a simple and clean layout. The front page comes across like a business card that plays a video giving off an aura of professionalism. The front page also immediately greets the visitor with all of the client's highlighted work, tabbed to present content to the visitor's interest.",
+        },
+        {
+            question: "How were goals set?",
+            answer: "Goals were set up by the team lead and handed down to each developer. My contribution involved presenting the frequently asked questions and presenting the history of the company.",
+        },
+        {
+            question: "What technologies were used?",
+            answer: `The client's website uses the usual technologies for website creation, namely HTML, CSS, and Javascript. The website also uses the React Library + Associated React Libraries.`,
+        },
+    ],
+    feedback: {
+        feedback: "N/A",
+        feedbackAuth: "N/A"
+    }
+}
+
 export const we4Data = {
     hero: {
         image: bobashopgames,
@@ -168,9 +227,9 @@ export const we4Data = {
         subTitle: "Website with various games, first game entry in the website."
     },
     overview: {
-        summary: "Fun React game application, created to practice React, Redux, React Router, Material-UI, Bootstrap, and application design.",
-        clientName: "N/A",
-        clientIndustry: "N/A",
+        summary: "This application lets users play a game called 'Quick Think.' Users will be able to create teams and set a target score goal. Users will have a limited amount of time to give three answers to fairly simple question. The pressure of coming up with answers within the short time frame is where the game gets exciting.",
+        clientName: "Portfolio Build",
+        clientIndustry: "Software Development",
         services: "Web Application Design & Execution",
         date: "July 2, 2018",
         link: "https://www.bobashopgames.fun",
@@ -215,7 +274,67 @@ export const we4Data = {
         },
     ],
     feedback: {
-        feedback: "N/A",
-        feedbackAuth: "N/A"
+        feedback: "The purpose of this project to continue to develop my front end development skills using the React framework.",
+        feedbackAuth: "Carlo Bilbao"
+    }
+}
+
+export const we5Data = {
+    hero: {
+        image: roogle,
+        title: "Roogle",
+        subTitle: "Roogle lets users interact with the Edamam API to search for food recipes."
+    },
+    overview: {
+        summary: "This application lets users interact with the Edamam API to search for food recipes. Recipe sources, links to full recipes directions, and nutrient information is presented in an organized way. Users can click individual recipies to show expanded recipe information such as nutrient breakdown, daily percent breakdown, and other relevant information.",
+        clientName: "Portfolio Build",
+        clientIndustry: "Software Development",
+        services: "Web Application Design & Execution",
+        date: "July 28, 2018",
+        link: "https://www.roogle.site",
+    },
+    skills: [
+        {
+            level: 95,
+            type: "React",
+            
+        },
+        {
+            level: 90,
+            type: "Redux",
+            
+        },
+        {
+            level: 80,
+            type: "Jest/Enzyme",
+        },
+        {
+            level: 85,
+            type: "Bootstrap",
+            
+        },
+
+    ],
+    goals: [
+        {
+            question: "What were the project goals?",
+            answer: "The purpose of this project, aside from creating a recipe search application, is to highlight my web design and front end development skills. I will show my methodology for creating a web application from conception to production.",
+        },
+        {
+            question: "How were the goals reached?",
+            answer: "The goal of this project was reached by planning out the project in the following order: information gathering, pen and paper sketchs, wireframe mocks in Sketch, UI build via HTML/SASS, UI build via HTML/Bootstrap, and UI via HTML/Bootstrap/CSS Modules.",
+        },
+        {
+            question: "How were goals set?",
+            answer: "Goals were set to highlight as many front-end development skills as possible, technologies like SASS and Grunt were used to develop UI, but assets from that build were not used in the final react project, it was merely used to display knowledge of the technology.",
+        },
+        {
+            question: "What technologies were used?",
+            answer: `Technologies: React, Redux, HTML, CSS, JavaScript (ES6), SASS, Bootstrap, CSS Modules, Axios (ReST API Call, JSON parsing), Jest, Enzyme. Tools: Sketch, Git, GitHub, VSCode, Grunt, NPM, AWS (S3, Cloudfront, Route 53, Certificate Manager). Other: Test Driven Development (TDD), Pixel Perfect UIs via HTML/CSS, Component Modularity.`,
+        },
+    ],
+    feedback: {
+        feedback: "The purpose of this project, aside from creating a recipe search application, is to highlight my web design and front end development skills. I will show my methodology for creating a web application from conception to production.",
+        feedbackAuth: "Carlo Bilbao"
     }
 }

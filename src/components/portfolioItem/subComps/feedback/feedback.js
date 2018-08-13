@@ -14,7 +14,7 @@ const feedback = (props) => {
                     <FontAwesomeIcon icon={faQuoteRight} size={"3x"} className={classes.icon}/>
                 </div>
                 <div className="row pt-5">
-                    <div className="col-12">
+                    <div className="col-12 d-flex justify-content-start justify-content-sm-center">
                         <h5>{props.feedback.feedback}</h5>
                     </div>
                     <div className="col-12 d-flex justify-content-start justify-content-sm-center">

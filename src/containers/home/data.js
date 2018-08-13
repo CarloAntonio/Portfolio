@@ -2,7 +2,7 @@ import magnolia from '../../assets/latest/magnolia.jpg';
 import darryljonvisuals from '../../assets/latest/darryljonvisuals.jpg';
 import ortabrothers from '../../assets/latest/ortabrothers.jpg';
 import bobashopgames from '../../assets/latest/bobashopgames.jpg';
-import roogle from '../../assets/latest/roogle.png';
+import roogle from '../../assets/latest/roogle.jpeg';
 
 export const progressData = {
     technologies: [
