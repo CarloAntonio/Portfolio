@@ -59,24 +59,23 @@ export const we1Data = {
     },
     skills: [
         {
-            percent: "92%",
-            skill: "HTML & CSS",
-            experience: "1"
+            level: 92,
+            type: "HTML/CSS",
         },
         {
-            percent: "97%",
-            skill: "Javascript",
-            experience: "1",
+            level: 97,
+            type: "Javascript",
+            
         },
         {
-            percent: "65%",
-            skill: "Bootstrap",
-            experience: "1",
+            level: 65,
+            type: "Bootstrap",
+            
         },
         {
-            percent: "50%",
-            skill: "React",
-            experience: "1",
+            level: 50,
+            type: "React",
+            
         },
     ],
     goals: [
@@ -119,23 +118,23 @@ export const we2Data = {
     },
     skills: [
         {
-            percent: "92%",
-            skill: "HTML & CSS",
+            level: "92%",
+            type: "HTML & CSS",
             experience: "1"
         },
         {
-            percent: "97%",
-            skill: "Javascript",
+            level: "97%",
+            type: "Javascript",
             experience: "1",
         },
         {
-            percent: "75%",
-            skill: "Bootstrap",
+            level: "75%",
+            type: "Bootstrap",
             experience: "1",
         },
         {
-            percent: "70%",
-            skill: "React",
+            level: "70%",
+            type: "React",
             experience: "1",
         },
     ],
@@ -179,23 +178,23 @@ export const we3Data = {
     },
     skills: [
         {
-            percent: "95%",
-            skill: "HTML & CSS",
+            level: "95%",
+            type: "HTML & CSS",
             experience: "1"
         },
         {
-            percent: "97%",
-            skill: "Javascript",
+            level: "97%",
+            type: "Javascript",
             experience: "1",
         },
         {
-            percent: "80%",
-            skill: "Redux",
+            level: "80%",
+            type: "Redux",
             experience: "1",
         },
         {
-            percent: "90%",
-            skill: "React",
+            level: "90%",
+            type: "React",
             experience: "1",
         },
     ],
