@@ -1,0 +1,48 @@
+
+.wrapper {
+    padding: 8rem 2rem;
+    background-color: #000;
+}
+
+.cardHead {
+    background-color: #000;
+    padding: 0;
+}
+
+.cardHead button {
+    color: white;
+    font-size: 0.8rem;
+    padding: 1rem 0.5rem;
+}
+
+.cardHead button:hover {
+    color: #c67c00;
+    text-decoration: none;
+}
+
+@media (min-width: 576px) {
+    .cardHead button {
+        font-size: 1rem;
+        padding-right: 14rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .cardHead button {
+        padding-right: 26rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .cardHead button {
+        padding-right: 40rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cardHead button {
+        padding-right: 54rem;
+    }
+}
+
+

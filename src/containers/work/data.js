@@ -81,7 +81,7 @@ export const we1Data = {
     ],
     goals: [
         {
-            question: "What was the goal of this project?",
+            question: "What was the project goal?",
             answer: "The goal of this project was to upgrade and update the client's very outdated website. The website had not been updated in years and much of the information on the website was incorrect. Furthermore, the website was not responsive and caused users to side scroll on smaller devices leading to a less than ideal user experience.",
         },
         {
@@ -93,7 +93,7 @@ export const we1Data = {
             answer: "The client and I set goals over food and drinks at their church brunch. Client knew what he wanted to accomplish with the website so it was easy to create a bullet point of all the things that needed to be accomplished.",
         },
         {
-            question: "What are some technologies used on this project?",
+            question: "What technologies were used?",
             answer: `The client's website uses the usual technologies for website creation, namely HTML, CSS, and Javascript. The website also uses the React Library + Associated React Libraries that bring it to Framework status, to provide a performance boost and "lazy-loads" seldom used links for a slight performance boost.`,
         },
     ],
